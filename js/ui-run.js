@@ -40,7 +40,6 @@
     moldura(`<div class="menu-home">
       <div class="mh-esq">
         <h1 class="logo-grande" aria-label="Jokenblitz">JOKEN<br>BLITZ</h1>
-        <p class="mh-sub">Pedra, papel e tesoura com deck, odds e Blitz.</p>
         ${st.erroMenu ? `<p class="erro" role="alert">${esc(st.erroMenu)}</p>` : ''}
         ${st.avisoSave ? '<p class="aviso-save" role="status">Sua run salva de uma versão anterior não funciona na V4.1 e foi descartada. Comece uma nova run!</p>' : ''}
         <div class="mh-modo" role="group" aria-label="Modo de jogo"><span class="lbl">Modo</span>
